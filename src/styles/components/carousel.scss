@@ -1,0 +1,34 @@
+.carousel {
+  position: absolute;
+  padding: 0px;
+
+}
+
+.carousel .caption {
+  position: relative;
+  top: -40px;
+  max-width: 600px;
+  height: 200px;
+  left: 300px;
+  padding: 2rem;
+  background: rgba(0,0,0,.55)
+}
+
+.carousel .caption h2 {
+  color: #fff;
+  font-family: Coco FY W01 Regular, fantasy;
+  text-transform: none;
+  font-size: 2rem
+}
+
+.carousel .caption p {
+  color: #fff
+}
+
+.slick-slide.slick-center img {
+  margin: auto;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}
