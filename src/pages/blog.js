@@ -20,7 +20,7 @@ export default class BlogPage extends Component {
       <Layout>
         <Helmet title={`Gallery & Posts – ${config.siteTitle}`} />
         <SEO />
-        <div className="container" style={{marginTop: '20px'}}>
+        <div className="container" style={{marginTop: '20px', paddingBottom: '20px'}}>
           <h2>Gallery & Posts</h2>
           <BlogRollCard small={true} postEdges={latestPostEdges} /> 
 {/* 

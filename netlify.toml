@@ -3,3 +3,5 @@
   command = "yarn run build"
 [build.environment]
   YARN_VERSION = "1.16.0"
+[build.production.environment]
+  GENERATE_SOURCEMAP = "false"
