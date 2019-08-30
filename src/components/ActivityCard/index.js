@@ -1,5 +1,5 @@
 import React from 'react';
-import { CommunityAvatar } from '../avatar';
+import { CommunityAvatar } from '../Avatar';
 import { ActivityContainer, CoverPhoto, ActivityAvatarContainer } from './style';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
