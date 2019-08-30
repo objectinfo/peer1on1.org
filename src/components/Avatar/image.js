@@ -1,16 +1,6 @@
 import * as React from 'react';
 import { Img, FallbackImg, LoadingImg } from './style';
-// import VisibilitySensor from 'react-visibility-sensor';
 
-/*
-const Props = {
-  src: any,
-  type: 'user' | 'community',
-  size: number,
-  mobilesize?: number,
-  isClickable?: boolean,
-};
-*/
 export default class Image extends React.Component {
   render() {
     const { type, size, mobilesize } = this.props;
@@ -29,7 +19,6 @@ export default class Image extends React.Component {
             <LoadingImg
               size={size}
               mobilesize={mobilesize}
-              type={type}
               src={fallbackSrc}
               alt=""
             />
@@ -38,7 +27,6 @@ export default class Image extends React.Component {
             <FallbackImg
               size={size}
               mobilesize={mobilesize}
-              type={type}
               src={fallbackSrc}
               alt=""
             />

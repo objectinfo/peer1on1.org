@@ -151,39 +151,8 @@ export default function ActivityCard (props) {
             </div>
           </div>
         </ExpansionPanelDetails>
-        }       
-{/*           
-        <div style={{width: '80%', fontFamily: 'Roboto'}}>
-          <Timeline>
-            <TimelineEvent 
-                title="Check-in"
-                createdAt="10:00 AM"
-                icon={<i> </i>}
-                iconColor="#6fba1c"
-            >
-              <div style={{maxWidth: '50%'}} dangerouslySetInnerHTML={{ __html: htmlStr }} />
-            </TimelineEvent>
-
-            <TimelineEvent
-                title="Snack"
-                createdAt="12:00 PM"
-                icon={<i></i>}
-                iconColor="blue"
-            >
-            </TimelineEvent>
-
-            <TimelineEvent
-                title="End"
-                createdAt="12:30 PM"
-                icon={<i></i>}
-                iconColor="black"
-            >
-            </TimelineEvent>
-          </Timeline>
-         </div>          
-*/}         
-
-    </ExpansionPanel>
+        }
+      </ExpansionPanel>
     </ActivityContainer>
   </Paper>
   );

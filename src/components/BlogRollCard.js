@@ -13,7 +13,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import {CoverPhoto} from '../components/activityCard/style'
+import {CoverPhoto} from './ActivityCard/style'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -84,21 +84,7 @@ export default function BlogRollCard(props) {
     if (small === true) {
       sortedPostList = sortedPostList.slice(0, 3)
     }
-    /*
-    return (
-      <Grid container className={classes.root} spacing={2}>
-        <Grid item xs={12}>
-          <Grid container justify="center" spacing={2}>
-            {[0, 1, 2].map(value => (
-              <Grid key={value} item>
-                <Paper className={classes.paper} />
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
-      </Grid>
-    );
-    */
+
     return (
       <Grid container className={classes.root} spacing={2}>
         <Grid item xs={12}>
@@ -145,11 +131,6 @@ export default function BlogRollCard(props) {
                 {formattedDate}
               </Typography>
             </Grid>            
-{/*             <Grid item >
-              <ButtonBase className={classes.image} border={0}>
-                <img className={classes.img} alt="complex" src={thumbnail.src} />
-              </ButtonBase>
-            </Grid> */}
             <Grid item>
               <Typography variant="body1" color="textSecondary" component="p">
                 {post.excerpt}

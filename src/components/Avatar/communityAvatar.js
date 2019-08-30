@@ -1,6 +1,6 @@
 import * as React from 'react';
 import AvatarImage from './image';
-import { Container, AvatarLink } from './style';
+import { Container } from './style';
 
 
 export default class Avatar extends React.Component {
@@ -8,7 +8,6 @@ export default class Avatar extends React.Component {
     const {
       profilePhoto,
       size = 32,
-      isClickable = true,
       mobilesize,
       style,
     } = this.props;
@@ -21,16 +20,12 @@ export default class Avatar extends React.Component {
         size={size}
         mobilesize={mobilesize}
         style={style}
-        type={'community'}
       >
-
-          <AvatarImage
-            src={source}
-            size={size}
-            mobilesize={mobilesize}
-            type={'community'}
-          />
-        
+        <AvatarImage
+          src={source}
+          size={size}
+          mobilesize={mobilesize}
+        />      
       </Container>
     );
   }

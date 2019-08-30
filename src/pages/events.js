@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../layout'
-import ActivityCard from '../components/activityCard'
+import ActivityCard from '../components/ActivityCard'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import activityEvents from '../../data/peer1on1_activity'
 import coverPhoto from '../../content/images/cover-blue.svg'
 import profilePhoto from '../images/logo.png'
-import {SidebarSection} from '../components/activityCard/style'
+import {SidebarSection} from '../components/ActivityCard/style'
 import styled from 'styled-components';
 
 // Center child divs inside parent div

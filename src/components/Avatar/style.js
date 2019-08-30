@@ -8,8 +8,7 @@ export const Container = styled.div`
   display: inline-block;
   width: ${props => (props.size ? `${props.size}px` : '32px')};
   height: ${props => (props.size ? `${props.size}px` : '32px')};
-  border-radius: ${props =>
-    props.type === 'community' ? `${props.size / 8}px` : '100%'};
+  border-radius: ${props => `${props.size / 8}px`};
   border: none;
   background-color: ${theme.bg.default};
   ${props =>
@@ -21,26 +20,12 @@ export const Container = styled.div`
       }
     `};
 `;
-/*
-export const AvatarLink = styled(Link)`
-  display: flex;
-  flex: none;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  pointer-events: auto;
-  border-radius: ${props =>
-    props.type === 'community' ? `${props.size / 8}px` : '100%'};
-`;
-*/
+
 export const Img = styled(ReactImage)`
   display: inline-block;
   width: ${props => (props.size ? `${props.size}px` : '32px')};
   height: ${props => (props.size ? `${props.size}px` : '32px')};
-  border-radius: ${props =>
-    props.type === 'community' ? `${props.size / 8}px` : '100%'};
+  border-radius: ${props => `${props.size / 8}px`};
   object-fit: cover;
   background-color: ${theme.bg.default};
   ${props =>
@@ -57,8 +42,7 @@ export const FallbackImg = styled.img`
   display: inline-block;
   width: ${props => (props.size ? `${props.size}px` : '32px')};
   height: ${props => (props.size ? `${props.size}px` : '32px')};
-  border-radius: ${props =>
-    props.type === 'community' ? `${props.size / 8}px` : '100%'};
+  border-radius: ${props => `${props.size / 8}px`};
   object-fit: cover;
   background-color: ${theme.bg.wash};
   ${props =>
@@ -75,8 +59,7 @@ export const LoadingImg = styled.div`
   display: inline-block;
   width: ${props => (props.size ? `${props.size}px` : '32px')};
   height: ${props => (props.size ? `${props.size}px` : '32px')};
-  border-radius: ${props =>
-    props.type === 'community' ? `${props.size / 8}px` : '100%'};
+  border-radius: ${props => `${props.size / 8}px`};
   background: ${theme.bg.wash};
   ${props =>
     props.mobilesize &&
@@ -86,20 +69,4 @@ export const LoadingImg = styled.div`
         height: ${props => `${props.mobilesize}px`};
       }
     `};
-`;
-
-export const OnlineIndicator = styled.span`
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 2px solid
-    ${props =>
-      props.onlineBorderColor
-        ? props.onlineBorderColor(props.theme)
-        : props.theme.text.reverse};
-  background: ${theme.success.alt};
-  border-radius: 5px;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
 `;
