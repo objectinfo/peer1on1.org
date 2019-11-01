@@ -20,7 +20,7 @@ export default class BlogPage extends Component {
       <Layout>
         <Helmet title={`Gallery & Posts – ${config.siteTitle}`} />
         <SEO />
-        <div className="container" style={{marginTop: '20px', paddingBottom: '20px'}}>
+        <div className="container" style={{ paddingBottom: '20px'}}>
           <h2>Gallery & Posts</h2>
           <BlogRollCard small={true} postEdges={latestPostEdges} /> 
 {/* 
@@ -29,14 +29,7 @@ export default class BlogPage extends Component {
             postEdges={latestPostEdges}
           />
         </ThemeProvider>
-
-        <section className="newsletter-section section">
-            <h2>Join the Newsletter</h2>
-            <p>
-              Enter your email address to follow our blog and receive notifications of new posts by email.
-            </p>
-            <NewsletterForm />
-        </section> */}
+ */}
         </div>
 
       </Layout>

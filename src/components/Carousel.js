@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import styled from 'styled-components';
 
+// Height=calc( 100vh - 6.5rem )
 export const CarouselPhoto = styled.div`
   position: relative;
   width: 100%;
@@ -22,6 +23,7 @@ export const CarouselPhoto = styled.div`
 export const ShortDescContainer = styled.div`
   position: absolute;
   top: 200px;
+  left: 50px;
   width: 300px;
   height: 100px;
   margin-left: 50%;
@@ -29,9 +31,36 @@ export const ShortDescContainer = styled.div`
   font-color: 'white';
 `;
 
+const SliderContentsWrap = styled.div`
+	position: absolute;
+	left: 0;
+	color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  z-index: 0 background-color: rgba(0,0,0,.2);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	transition: all .5s ease;
+	height: 100%;
+`;
+
+const SliderContentsInnerWrap = styled.div`
+	width: 50%;
+	left: 0%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	text-align: left;
+	margin-left: 10%;
+`;
+
 const ImageOverlayTitle = styled.h3`
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 100%;
   left: 0;
   transform: translate(0, -50%);
   font-size: 2rem;
@@ -47,7 +76,7 @@ export default class Carousel extends Component {
     const { carousels } = this.props
 
     var settings = {
-      arrows: false,
+      arrows: true,
       dots: false,
       infinite: true,
       slidesToShow: 1,
@@ -67,10 +96,10 @@ export default class Carousel extends Component {
               <div key={imgKey}>
                 {/* <div className="caption"></div> */}
                 {/* <img src={item.img} />    */}
-                <CarouselPhoto src={item.img} height={'calc( 100vh - 6.5rem )'} />
-                 <ShortDescContainer>
-                  <ImageOverlayTitle>Talent Show</ImageOverlayTitle>
-                </ShortDescContainer>
+                <CarouselPhoto src={item.img} height={'400px'} />
+                <SliderContentsWrap>
+                  <SliderContentsInnerWrap>Talent Show</SliderContentsInnerWrap>
+                </SliderContentsWrap> 
                            
               </div>
             );

@@ -7,16 +7,16 @@ $primary-color: #5183F5;
 $primary-hover: lighten($primary-color, 33%);
 
 #main-content {
-  margin-top: 10px;
+  margin-top: 0px;
   padding: 0px 0 0;
-  min-height: calc(100vh - 162px);
+  min-height: calc(100vh - 6.5rem);
 }
 
 @include small-breakpoint {
   #main-content {
     margin-top: 0px;
     padding: 0px 0 0;
-    min-height: calc(100vh - 219px);
+    min-height: calc(100vh - 6.5rem);
   }
 }
 

@@ -10,35 +10,52 @@ import config from '../../data/SiteConfig'
 import carousels from '../../data/carousels'
 import coverPhoto from '../../content/images/cover-blue.svg'
 import peer1on1logo from '../images/logo.png'
-import {SidebarSection} from '../components/ActivityCard/style'
-import heroImg from '../../content/images/background-16-9.svg'
+import heroImg from '../../static/background-16-9.svg'
 // import heroImg from '../../content/images/parks-clipart.png'
+import ImageCarousel from '../components/CarouselHero'
+import styled from 'styled-components';
+import EventRegistryForm from '../components/Forms/eventRegistryForm'
 
+// Center child divs inside parent div
+const ImageCarouselContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+const BackgroundImgContainer = styled.div`
+    background-image: url(${props => props.src});
+    min-height: calc(100vh - 6.5rem);
+`;
+
+const ContentContainer = styled.div`
+  max-width: 1200px;
+  background: #FFF;
+  box-shadow: 0 0 12px #999;
+`;
 
 export default class Index extends Component {
   render() {
     const { data } = this.props
-    const activity = {
-      coverPhoto: coverPhoto,
-      profilePhoto: peer1on1logo
-    }
+    const activity = { }
 
+    const registryForm = <EventRegistryForm open={false} style={{width: '600px'}}/>
     return (
       <Layout>
         <Helmet title={`${config.siteTitle}`} />
-{/*  
+        {/* <BackgroundImgContainer src={heroImg}> */}
+
+        <ImageCarouselContainer >
+          <div style={{width: '100%', height: '400px', maxWidth: '1000px'}}>
+            <Carousel carousels={carousels} />
+            {/* <ImageCarousel carousels={carousels} /> */}
+          </div>
+        </ImageCarouselContainer>   
+{/*      
         <div className="container front-page" style={{maxWidth: 500, marginTop: 30}}>
-          <ActivityCard activity={activity} />
+          <ActivityCard activity={activity} registryForm={registryForm} />
         </div>
-*/}
-      <div className="hero is-fullheight has-background">
-{/*         <img className="hero-background is-transparent"
-             src={heroImg}
-        ></img> */}
-        <div className="hero-body" style={{height: 'calc( 100vh - 6.5rem )'}}>
-          <Carousel carousels={carousels} />
-        </div>
-      </div>
+       */}   
+        {/* </BackgroundImgContainer> */}
       </Layout>
     )
   }

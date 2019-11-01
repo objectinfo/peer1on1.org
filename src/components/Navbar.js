@@ -111,6 +111,12 @@ const Navbar = class extends React.Component {
               </StyledLink>
             </div>
             <div className="navbar-end has-text-centered">
+            <a href="https://peer1on1.wordpress.com"
+              className="navbar-item tooltip is-tooltip-bottom is-tooltip-info" style={{paddingRight: 20}}
+              data-tooltip="Visit the old website"
+              >
+              Old Website
+            </a>
             <a href={config.amazonSmileUrl} target="_blank"
               className="navbar-item tooltip is-tooltip-bottom is-tooltip-info" style={{padding: 0}}
               data-tooltip="You shop, Amazon gives"

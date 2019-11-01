@@ -8,6 +8,13 @@ import '../styles/main.scss'
 import '../styles/navbar.sass'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import styled from 'styled-components';
+import heroImg from '../../static/background-16-9.svg'
+
+const BackgroundImgContainer = styled.div`
+    background-image: url(${props => props.src});
+    min-height: calc(100vh - 6.5rem);
+`;
 
 export default class MainLayout extends Component {
 
@@ -27,7 +34,9 @@ export default class MainLayout extends Component {
         </Helmet>
         {/* <Navigation menuLinks={config.menuLinks} /> */}
         <Navbar  />
-        <main id="main-content">{children}</main>
+        <main id="main-content">
+          {children}
+        </main>
         <Footer />
       </>
     )

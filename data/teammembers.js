@@ -3,6 +3,7 @@ import zhanqi from '../content/members/zhanqi.png'
 import EmmyChen from '../content/members/emmy_chen.jpg'
 import KaiannYang from '../content/members/kaiann_yang.jpg'
 import LucyWan from '../content/members/lucy_wan.jpg'
+import Gail from '../content/members/Gail.jpg'
 
 export default {
   board: [
@@ -32,7 +33,7 @@ export default {
         for 20 years and founded FACE: Faculty for Autism Collaboration & Education, 
         whose mission is to promote education and inter-professional perspectives about autism to 
         improve quality of life. She is an autism awareness advocate.`,
-        avatar_img: missing_avatar,
+        avatar_img: Gail,
         is_active: true,
     },
   ],

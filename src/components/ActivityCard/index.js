@@ -9,6 +9,8 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import defaultCoverPhoto from '../../../content/images/cover-blue.svg'
+import defaultProfilePhoto from '../../images/logo.png'
 // import {Timeline, TimelineEvent} from 'react-event-timeline'
 
 const useStyles = makeStyles(theme => ({
@@ -80,13 +82,13 @@ export default function ActivityCard (props) {
   return (
   <Paper className={classes.paper}>
     <ActivityContainer >
-      <CoverPhoto src={coverPhoto} />
+      <CoverPhoto src={coverPhoto ? coverPhoto : defaultCoverPhoto} />
  
       <ActivityAvatarContainer>
         <CommunityAvatar
           showHoverProfile={false}
           size={60}
-          profilePhoto={profilePhoto}
+          profilePhoto={profilePhoto ? profilePhoto : defaultProfilePhoto}
         />
       </ActivityAvatarContainer>
 
@@ -105,6 +107,8 @@ export default function ActivityCard (props) {
           </Grid>
         </Grid>
       </div>
+
+      {props.registryForm}
 
       <ExpansionPanel defaultExpanded={doExpandTimeline}>
         <ExpansionPanelSummary
