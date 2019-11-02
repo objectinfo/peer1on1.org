@@ -1,4 +1,4 @@
-# peer1on1.org [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# peer1on1.org [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  [![Netlify Status](https://api.netlify.com/api/v1/badges/62ab8737-cf2b-4b62-9de3-bd702383f24d/deploy-status)](https://app.netlify.com/sites/focused-stallman-f1a6ef/deploys)
 
 Website for peer1on1.org
 
