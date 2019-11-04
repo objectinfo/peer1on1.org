@@ -19,6 +19,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import BoxedHeader from '../components/BoxedHeader'
 import NewsListingItem from '../components/NewsListItem'
+import dateFormat from 'dateformat'
 
 // Center child divs inside parent div
 const ImageCarouselContainer = styled.div`
@@ -48,9 +49,28 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default class Index extends Component {
+
+  getPostList(postEdges) {
+    const postList = postEdges
+      .filter(postEdge => postEdge.node.frontmatter.template === 'post')
+      .map(postEdge => {
+        return {
+          path: postEdge.node.fields.slug,
+          tags: postEdge.node.frontmatter.tags,
+          thumbnail: postEdge.node.frontmatter.thumbnail,
+          title: postEdge.node.frontmatter.title,
+          date: postEdge.node.fields.date,
+          excerpt: postEdge.node.excerpt,
+          timeToRead: postEdge.node.timeToRead,
+          categories: postEdge.node.frontmatter.categories,
+        }
+      })
+    return postList
+  }
+
   render() {
-    const { data } = this.props
     const activity = { }
+    const latestPostList = this.getPostList(this.props.data.latestPosts.edges)
 
     const registryForm = <EventRegistryForm open={false} style={{width: '600px'}}/>
     return (
@@ -74,7 +94,21 @@ export default class Index extends Component {
                   </Grid>
                   <Grid item sm>
                     <BoxedHeader description="LATEST NEWS"></BoxedHeader>
-                    <NewsListingItem title="Card Making" link="/2019-10-19-card-making" date="October 19, 2019"></NewsListingItem>
+                    {
+                      latestPostList.map((post, i) => {
+                        let {desc, date, title} = post
+                        if (desc === undefined ) desc = post.title
+                        // Post date, if available
+                        let formattedDate = ''
+                        if (date.length > 0) {
+                          formattedDate = dateFormat(date, 'fullDate', true).toUpperCase()
+                        }
+                        return (
+                        <NewsListingItem key={i} title={title} link={post.path} date={formattedDate}>
+                        </NewsListingItem>
+                        )
+                      })
+                    } 
                   </Grid>
                 </Grid>   
              </Grid>
@@ -94,8 +128,8 @@ export default class Index extends Component {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    latest: allMarkdownRemark(
-      limit: 6
+    latestPosts: allMarkdownRemark(
+      limit: 3
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { template: { eq: "post" } } }
     ) {

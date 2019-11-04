@@ -22,7 +22,7 @@ export default class BlogPage extends Component {
         <SEO />
         <div className="container" style={{ paddingBottom: '20px'}}>
           <h2>Gallery & Posts</h2>
-          <BlogRollCard small={true} postEdges={latestPostEdges} /> 
+          <BlogRollCard small={false} postEdges={latestPostEdges} /> 
 {/* 
         <ThemeProvider theme={theme}>
           <PostListing

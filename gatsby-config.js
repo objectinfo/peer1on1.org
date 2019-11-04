@@ -59,6 +59,15 @@ module.exports = {
               removeAccents: true,
             },
           },
+          {
+            resolve: `gatsby-remark-images-contentful`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 360,
+            },
+          },
         ],
       },
     },
@@ -74,7 +83,7 @@ module.exports = {
         color: config.themeColor,
       },
     },
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',

@@ -14,6 +14,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {CoverPhoto} from './ActivityCard/style'
+import defaultCoverPhoto from '../../content/images/cover-blue.svg'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -102,11 +103,10 @@ export default function BlogRollCard(props) {
           // Post date, if available
           let formattedDate = ''
           if (date.length > 0) {
-            console.log(date)
             formattedDate = dateFormat(date, 'fullDate', true).toUpperCase()
           }
 
-          let thumbnail
+          let thumbnail = { src: ''}
           if (post.thumbnail) {
             thumbnail = post.thumbnail.childImageSharp.fluid
           }
@@ -121,7 +121,7 @@ export default function BlogRollCard(props) {
           return (
             <Grid key={title} item>
             <Paper className={classes.card}>
-            <CoverPhoto src={thumbnail.src} />
+            <CoverPhoto src={thumbnail.src ? thumbnail.src : defaultCoverPhoto} />
           <Grid className={classes.card_meta} container direction="column" spacing={2}>
             <Grid item xs >
               <Typography gutterBottom variant="h5" color="primary">
