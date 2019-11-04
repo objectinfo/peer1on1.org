@@ -2,7 +2,7 @@
 date: 2019-09-25
 title: 'Park Activity'
 template: post
-thumbnail: 'https://cdn.discordapp.com/attachments/495451359039062052/629172613914034196/image0.jpg'
+thumbnail:
 slug: 2019-09-25-park-activity
 categories:
   - Outdoor

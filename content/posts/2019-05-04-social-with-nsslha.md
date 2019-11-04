@@ -2,7 +2,7 @@
 date: 2019-05-04
 title: 'Social with NSSLHA'
 template: post
-thumbnail: 'https://media.discordapp.net/attachments/563180316991422464/583427942407733249/0.png'
+thumbnail:
 slug: 2019-05-04-social-with-nsslha
 categories:
 tags:
