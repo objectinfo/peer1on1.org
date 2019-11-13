@@ -18,8 +18,9 @@ import EventRegistryForm from '../components/Forms/eventRegistryForm'
 import { makeStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
 import BoxedHeader from '../components/BoxedHeader'
-import NewsListingItem from '../components/NewsListItem'
+import NewsListingItem, {EventListingItem} from '../components/NewsListItem'
 import dateFormat from 'dateformat'
+import activityEvents from '../../data/peer1on1_activity'
 
 // Center child divs inside parent div
 const ImageCarouselContainer = styled.div`
@@ -68,8 +69,37 @@ export default class Index extends Component {
     return postList
   }
 
+  sortEvents(events) {
+    const filtered = events.filter(u => u.when)
+
+    const sorted = filtered.sort(function (a, b) {
+        const dateA = new Date(a.when).getTime()
+        const dateB = new Date(b.when).getTime()
+        return dateA > dateB ? 1 : -1
+    }).reverse()
+
+    return sorted
+  }
+
   render() {
-    const activity = { }
+  
+    const sortedEvents = this.sortEvents(activityEvents);
+    const currentTime = new Date().getTime()
+    let upcomingEvents = []
+    let archiveEvents = []
+
+    sortedEvents.forEach(element => {
+        const eventDate = new Date(element.when).getTime();
+        if (eventDate > currentTime)
+        {
+            upcomingEvents.push(element);
+        } else {
+            archiveEvents.push(element);
+        }
+    });
+
+    let hasUpcomingEvent = upcomingEvents.length > 0;
+
     const latestPostList = this.getPostList(this.props.data.latestPosts.edges)
 
     const registryForm = <EventRegistryForm open={false} style={{width: '600px'}}/>
@@ -91,6 +121,10 @@ export default class Index extends Component {
                 <Grid container justify="center" spacing={2}>
                   <Grid item sm>
                     <BoxedHeader description="UPCOMING EVENT"></BoxedHeader>
+                    {hasUpcomingEvent ? (
+                    <EventListingItem activity={upcomingEvents[0]}>
+                    </EventListingItem>
+                    ) : null}
                   </Grid>
                   <Grid item sm>
                     <BoxedHeader description="LATEST NEWS"></BoxedHeader>

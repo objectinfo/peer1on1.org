@@ -44,6 +44,12 @@ export const NewsListingItemTitle = styled.h4`
   }
 `;
 
+export const NewsListItemSubTitle = styled.p`
+  font-size: 18px;
+  line-height: 26px;
+  color: #a2aeb6;
+`;
+
 export const NewsListItemDate = styled.p`
   font-size: 16px;
   line-height: 26px;

@@ -1,5 +1,17 @@
+import flyer_11_23_2019 from './2019-11-23-event.jpg'
+
 export default [
-    
+    {
+        eventTitle: "Community Gathering",
+        when: "November 23, 2019",
+        where: "ELSENHOWER PARK, SEAL BEACH",
+        mapUrl: "",
+        time: "3:00 ~ 5:00 PM",
+        flyerImage: flyer_11_23_2019,
+        description: "You are invited to join us in a Chrismas Tree Lighting in Seal Beach \nSANTA - MUSIC - SLEDDING - COCOA",
+        timeline: [              
+        ]
+    },
     {
         eventTitle: "Hiking Activity",
         when: "July 13, 2019",

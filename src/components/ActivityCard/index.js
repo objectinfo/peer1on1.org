@@ -51,13 +51,13 @@ export default function ActivityCard (props) {
   function FormRow({title, desc}) {
     return (
       <React.Fragment>
-        <Grid item xs={3}>
-          <Typography variant="h6" className={classes.firstColumn}>
+        <Grid item xs={4}>
+          <Typography variant="h7" className={classes.firstColumn}>
             {title ? title : ''}
           </Typography>          
         </Grid>
-        <Grid item xs={9} className={classes.secondColumn}>
-          <Typography style={{whiteSpace: 'pre-line'}}>
+        <Grid item xs={8} className={classes.secondColumn}>
+          <Typography style={{whiteSpace: 'pre-line', textAlign: 'Left'}}>
             {desc ? desc : ''}
           </Typography>            
         </Grid>
@@ -104,6 +104,9 @@ export default function ActivityCard (props) {
           </Grid>
           <Grid container item xs={12} spacing={0}>
             <FormRow title="Location:" desc={activity.where} />
+          </Grid>
+          <Grid container item xs={12} spacing={0}>
+            <FormRow title="Description:" desc={activity.description} />
           </Grid>
         </Grid>
       </div>
