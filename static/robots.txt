@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://www.peer1on1.org/sitemap.xml
