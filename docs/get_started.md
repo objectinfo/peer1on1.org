@@ -4,7 +4,7 @@
 
 It can edit this file `/data/peer1on1_activity.js` to add/update the Peer1on1 activity event, navigate to that file and can use `Edit this file` icon to edit it in Github website.
 
-![Edit activity data](https://www.dropbox.com/s/5fzjxzb5letvy8n/Peer1on1%20Org%20-%20edit_activity_file.png?dl=0)
+![Edit activity data](https://uc48496a726d1c8fde3d8e1b5e6f.previews.dropboxusercontent.com/p/thumb/AAnFumQTAAeon2YLVQfYe7erRfGz4eD1zGMr_DdDm-0HrBS9naDoHs4XxGBxCtzLVG0TfMGwPifTucDZmpDAVpe6INa2fFbNJ6WLqlfnz8WAS_hkxhAYJAD01f4apUIMKKafDho_IYywBL60HI0n4DKdhYWU9RasXsQJabyn5LAHOD0jFUduUD_wQozi0XXHAdV37YWCSvFpdFT2SXOhmV-41UthV0L3cRoW9PtPCHOmdxDTdTrOrTrH14mPCJjrmPb0DDoc7H5CMyWRxM8hGULEAm1Ne7WRwlxN5piK93tGMEb-uU7zL4g5PNu9ykHdx3LfzafROVAvwFweMzSq2w_mpnIFTTbLMm_jVMAw_s0w6qU0Erssuxz0_BLEcS-AmKW5MsTf02RWKqGjsXX5xcQQ/p.png?fv_content=true&size_mode=2)
 
 ## Update Activity Post (Blog)
 
@@ -31,8 +31,6 @@ Use standard HTML image element to control width of the image:
 ```
 <img src="https://cdn.discordapp.com/attachments/407224758992896000/639332528343482379/image0.jpg" width="360" />
 ```
-
-We created a dropbox account for uploading files via this [upload link](https://www.dropbox.com/request/t2oIlNnv02NJcbqVzmB3) and the uploaded files can be viewed at [here](https://www.dropbox.com/sh/acdmgnpz9vj17aq/AABsvoCAJlUfZvmtHEAQWysma?dl=0). And then login to dropbox account to get a shared link of the file and put it in the post.
 
 After saving the post file, create a `Pull request` to merge the changes to `master` branch, once the change is reviewed and approved, the website will be rebuilt automatically and reflect the changes.
 
