@@ -1,10 +1,20 @@
 # How to change content for peer1on1.org
 
+You can update website content in this [Repository](https://github.com/peer1on1/peer1on1.org) through Github web editor or use local editor and commit to the repository.
+
 ## Update Activity Event
 
 It can edit this file `/data/peer1on1_activity.js` to add/update the Peer1on1 activity event, navigate to that file and can use `Edit this file` icon to edit it in Github website.
 
-![Edit activity data](https://uc48496a726d1c8fde3d8e1b5e6f.previews.dropboxusercontent.com/p/thumb/AAnFumQTAAeon2YLVQfYe7erRfGz4eD1zGMr_DdDm-0HrBS9naDoHs4XxGBxCtzLVG0TfMGwPifTucDZmpDAVpe6INa2fFbNJ6WLqlfnz8WAS_hkxhAYJAD01f4apUIMKKafDho_IYywBL60HI0n4DKdhYWU9RasXsQJabyn5LAHOD0jFUduUD_wQozi0XXHAdV37YWCSvFpdFT2SXOhmV-41UthV0L3cRoW9PtPCHOmdxDTdTrOrTrH14mPCJjrmPb0DDoc7H5CMyWRxM8hGULEAm1Ne7WRwlxN5piK93tGMEb-uU7zL4g5PNu9ykHdx3LfzafROVAvwFweMzSq2w_mpnIFTTbLMm_jVMAw_s0w6qU0Erssuxz0_BLEcS-AmKW5MsTf02RWKqGjsXX5xcQQ/p.png?fv_content=true&size_mode=2)
+![Edit activity data](https://i.imgur.com/iW4SBrh.png)
+
+## Update the Team Members
+
+The profile of peers can be updated in this file `/data/teammembers.js`.
+
+## Update Pictures of Home Page
+
+The pictures in the home page (Carousel picture) can be added/updated in this file `/data/carousels.js`.
 
 ## Update Activity Post (Blog)
 
@@ -31,6 +41,8 @@ Use standard HTML image element to control width of the image:
 ```
 <img src="https://cdn.discordapp.com/attachments/407224758992896000/639332528343482379/image0.jpg" width="360" />
 ```
+
+We can use `Imgur` to host the image for the post, click [this link](https://imgur.com/a/o682Ehg) and login to Imgur account to upload images, then get the shared linked of each image (copy the Markdown format), put it in the post as described above.
 
 After saving the post file, create a `Pull request` to merge the changes to `master` branch, once the change is reviewed and approved, the website will be rebuilt automatically and reflect the changes.
 
