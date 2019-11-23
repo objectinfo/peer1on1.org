@@ -4,6 +4,7 @@ import EmmyChen from '../content/members/emmy_chen.jpg'
 import KaiannYang from '../content/members/kaiann_yang.jpg'
 import LucyWan from '../content/members/lucy_wan.jpg'
 import Gail from '../content/members/Gail.jpg'
+import Ashley from '../content/members/ashley.png'
 
 export default {
   board: [
@@ -75,7 +76,7 @@ export default {
         position: 'Website Manager',
         introduction: `I enjoy being a part of Peer1on1 because I feel like I am able to help out so many people and make a real difference. It also pushes me to strive to improve myself, because it helps me realize that in order to help others reach a goal, I must proficient in that area as well.
         My future goals are to study computer sciences.`,
-        avatar_img: missing_avatar,
+        avatar_img: Ashley,
         is_active: true,
     }, 
     {
