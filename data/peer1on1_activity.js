@@ -13,6 +13,16 @@ export default [
         ]
     },
     {
+        eventTitle: "Workshop",
+        when: "March 23, 2019",
+        where: "Cypress Library, Cypress, CA",
+        mapUrl: "",
+        time: "9:00 ~ 11:00 AM",
+        description: "Peer 1 on 1 invited guest speaker Dr. Gail Singer-Chang, founder of FACE (Faculty for Autism Collaboration & Education) and medical educator for 20 years, to give peers a workshop on how to interact with and make kids who are autistic feel more comfortable in their environmen",
+        timeline: [              
+        ]
+    },
+    {
         eventTitle: "Hiking Activity",
         when: "July 13, 2019",
         where: "Fullerton Arboretum\n1900 Associated Rd.\nFullerton, CA, 92831",
