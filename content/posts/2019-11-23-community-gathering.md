@@ -11,3 +11,5 @@ On 11/23/19, Peer 1 on 1 held an event celebrating the Seal Beach X-mas tree lig
 Later in the evening, everyone watched the performances, played in the snow, ice skate, watched the lighting of the Xmas tree and welcomed Santa riding in on the trash truck.
 
 A big Thank You to all the volunteers and the parents making time on a busy holiday weekend to make this event successful.
+
+![](https://i.imgur.com/zYAqPtrl.jpg)
