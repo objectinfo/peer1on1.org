@@ -41,7 +41,9 @@ function BranchMembers(props) {
   return (
     <div className={classes.root}>
     {
-      members.map((member, i) => {
+      members.filter((member) => {
+        return member.is_active === true;
+        }).map((member, i) => {
         const panelId = `panel${i}`;
         const shortIntro = member.introduction.slice(0, 40) + '...';
         // expanded={expanded === {panelId}} onChange={handleChange(panelId)}
