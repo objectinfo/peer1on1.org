@@ -2,9 +2,11 @@ import missing_avatar from '../content/members/missing_avatar.svg'
 import zhanqi from '../content/members/zhanqi.png'
 import EmmyChen from '../content/members/emmy_chen.jpg'
 import KaiannYang from '../content/members/kaiann_yang.jpg'
-import LucyWan from '../content/members/lucy_wan.jpg'
 import Gail from '../content/members/Gail.jpg'
 import Ashley from '../content/members/ashley.png'
+import TiffanyCheng from '../content/members/tiffany_cheng.jpg'
+import JamesLee from '../content/members/james_lee.jpg'
+import KristenTang from '../content/members/kristen_tang.jpg'
 
 export default {
   board: [
@@ -91,12 +93,36 @@ export default {
   ],
   cerritos: [
     {
+      name: 'Tiffany Cheng',
+      position: 'President',
+      introduction: `Tiffany is currently a sophomore at Whitney High School. Her current hobbies include playing volleyball, dancing, playing instruments, singing, and drawing. She likes being a part of peer1on1 because she thinks the activities make the parents and peers very happy.`,
+      avatar_img: TiffanyCheng,
+      is_active: true,
+    },
+    {
+      name: 'James Lee',
+      position: 'Activities Head',
+      introduction: `James Lee is currently a Sophomore at Whitney High School. He loves playing soccer and drums, and secretly likes to sing even though he is not very good at it. He enjoys participating in Peer 1on1 because he likes planning fun activities for the peers, and enjoys playing with them.`,
+      avatar_img: JamesLee,
+      is_active: true,
+    },
+    {
+      name: 'Kristen Tang',
+      position: 'Secretary',
+      introduction: `Kristen Tang is currently a sophomore at Cerritos High School. Her hobbies include cooking, singing, playing basketball, running and drawing. She likes being a part of peer1on1 because she wants to help the kids to have fun and feel loved.`,
+      avatar_img: KristenTang,
+      is_active: true,
+    },
+    {
       name: 'Lucy Wan',
       position: 'Vice President',
       introduction: `What I like about Peer1on1: I like that Peer1on1 gives me the opportunity to be able to help and spend time with special needs people on a weekly basis. I also really enjoy the activities and I hope to be a positive influence to their lives.
       \n My Future Goals: I am pursuing a career as an artificial intelligence scientist with applications in neuroscience.`,
       avatar_img: LucyWan,
-      is_active: true,
+      is_active: false,
     },
+    
+    
+
   ],
 }
