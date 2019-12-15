@@ -113,7 +113,16 @@ export default {
       avatar_img: KristenTang,
       is_active: true,
     },
+    {
+      name: 'Lucy Wan',
+      position: 'Vice President',
+      introduction: `What I like about Peer1on1: I like that Peer1on1 gives me the opportunity to be able to help and spend time with special needs people on a weekly basis. I also really enjoy the activities and I hope to be a positive influence to their lives.
+      \n My Future Goals: I am pursuing a career as an artificial intelligence scientist with applications in neuroscience.`,
+      avatar_img: LucyWan,
+      is_active: false,
+    },
     
     
+
   ],
 }
