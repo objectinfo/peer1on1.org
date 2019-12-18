@@ -1,6 +1,18 @@
 import flyer_11_23_2019 from './2019-11-23-event.jpg'
+import flyer_01_04_2020 from './2020-01-04-museum_hiking_tour.jpg'
 
 export default [
+    {
+        eventTitle: "Wetland Museum and Hiking Tour",
+        when: "January. 04, 2020",
+        where: "3842 Warner Ave.\nHuntington Beach, CA, 92649",
+        mapUrl: "",
+        time: "1:00 ~ 3:00 PM",
+        flyerImage: flyer_01_04_2020,
+        description: "Bolsa Chica Wetland Museum and Hiking Tour, Peer1on1 will cover the cost of the tour, \n Register by email: \npeer1on1forautism@gmail.com",
+        timeline: [              
+        ]
+    },
     {
         eventTitle: "Community Gathering",
         when: "November 23, 2019",
