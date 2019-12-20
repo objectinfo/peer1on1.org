@@ -8,11 +8,12 @@ import Ashley from '../content/members/ashley.png'
 import TiffanyCheng from '../content/members/tiffany_cheng.jpg'
 import JamesLee from '../content/members/james_lee.jpg'
 import KristenTang from '../content/members/kristen_tang.jpg'
+import Lisa_Chattler from '../content/members/Lisa_Chattler.jpg'
 
 export default {
   board: [
     {
-      name: 'Zhanqi Chen',
+      name: 'Zhanqi Cheng',
       position: 'Director of Peer1on1',
       introduction: `Zhan Qi is the head and founder of the Peer1on1 program.
       She is a mother of two autistic children, and understands the difficulties of 
@@ -39,6 +40,20 @@ export default {
         improve quality of life. She is an autism awareness advocate.`,
         avatar_img: Gail,
         is_active: true,
+    },
+    {
+        name: 'Lisa Chattler, MA, CCC-SLP',
+        position: 'Secretary',
+        introduction: `Lisa recently retired from Los Alamitos Unified where she provided direct
+        clinical services to students with wide ranging communication challenges for 38 years 
+        and supervised student interns from Chapman University, CSUF, and CSUN.  In addition, 
+        Lisa mentors the next generation of SLPs as a supervisor, modeling leadership as well as 
+        clinical skills. Lisa proudly serves on the California Speech and Language Association (CSHA) Board 
+        and is currently the associate coordinator for American Speech Language Hearing Association (ASHA) SIG 16 (school-based issues).
+        She regularly presents locally and nationally on autism spectrum disorders, social communication, and professional issues, 
+        and has published several articles.`,
+        avatar_img: Lisa_Chattler,
+        is_active: true,      
     },
   ],
   cypress: [
