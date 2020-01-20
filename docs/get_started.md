@@ -41,7 +41,8 @@ Use standard HTML image element to control width of the image:
 ```
 <img src="https://cdn.discordapp.com/attachments/407224758992896000/639332528343482379/image0.jpg" width="360" />
 ```
-### Create a thumbnail image then click to large image
+__*Create a thumbnail image then click to large image*__
+
 Below is the simplest solution is to make a small version of the image (like "Medium Thumbnal" in Imgur) and wrap it in a link to the original image.
 ```
 [![](small.jpg)](large.jpg)
