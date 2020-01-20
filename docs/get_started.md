@@ -41,6 +41,11 @@ Use standard HTML image element to control width of the image:
 ```
 <img src="https://cdn.discordapp.com/attachments/407224758992896000/639332528343482379/image0.jpg" width="360" />
 ```
+### Create a thumbnail image then click to large image
+Below is the simplest solution is to make a small version of the image (like "Medium Thumbnal" in Imgur) and wrap it in a link to the original image.
+```
+[![](small.jpg)](large.jpg)
+```
 
 We can use `Imgur` to host the image for the post, click [this link](https://imgur.com/a/o682Ehg) and login to Imgur account to upload images, then get the shared linked of each image (copy the Markdown format), put it in the post as described above.
 
