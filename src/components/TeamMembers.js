@@ -45,7 +45,7 @@ function BranchMembers(props) {
         return member.is_active === true;
         }).map((member, i) => {
         const panelId = `panel${i}`;
-        const shortIntro = '';
+        let shortIntro = '';
         if (member.introduction) {
           shortIntro= member.introduction.slice(0, 40) + '...';
         }
