@@ -9,6 +9,8 @@ import TiffanyCheng from '../content/members/tiffany_cheng.jpg'
 import JamesLee from '../content/members/james_lee.jpg'
 import KristenTang from '../content/members/kristen_tang.jpg'
 import Lisa_Chattler from '../content/members/Lisa_Chattler.jpg'
+import MarinaZhao from '../content/members/marina_zhao.jpg'
+import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 
 export default {
   board: [
@@ -66,12 +68,12 @@ export default {
       is_active: true,
     },
     {
-        name: 'Marina Zhao',
-        position: 'Secretary',
-        introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
-        \n In the future, I hope to help out more youths.`,
-        avatar_img: missing_avatar,
-        is_active: true,
+      name: 'Marina Zhao',
+      position: 'Secretary',
+      introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
+      \n In the future, I hope to help out more youths.`,
+      avatar_img: MarinaZhao,
+      is_active: true,
     },
     {
       name: 'Kaiann Yang',
@@ -86,24 +88,30 @@ export default {
       position: 'Director of Activities',
       introduction: `Peer1on1 amazes me as the most dedicated organization I have worked with. There is true dedication to helping autistic children, and I am glad to be on board. I especially love that I can challenge myself to do better. Through the experience I have gained with Peer1on1, I have gained patience, courage, and determination. I have also become more outgoing as a person and it is hard to believe how much of an impact Peer1on1 has had on me.
       \n In the near future, I hope to expand this astonishing group for others to experience what I have. I wish to continue helping the autistic youth and allow Peer1on1 to thrive.`,
-      avatar_img: missing_avatar,
+      avatar_img: RyanOtsuka,
       is_active: true,
     },
     {
-        name: 'Ashley Cho',
-        position: 'Website Manager',
-        introduction: `I enjoy being a part of Peer1on1 because I feel like I am able to help out so many people and make a real difference. It also pushes me to strive to improve myself, because it helps me realize that in order to help others reach a goal, I must proficient in that area as well.
-        My future goals are to study computer sciences.`,
-        avatar_img: Ashley,
-        is_active: true,
+      name: 'Ashley Cho',
+      position: 'Website Manager',
+      introduction: `I enjoy being a part of Peer1on1 because I feel like I am able to help out so many people and make a real difference. It also pushes me to strive to improve myself, because it helps me realize that in order to help others reach a goal, I must proficient in that area as well.
+      My future goals are to study computer sciences.`,
+      avatar_img: Ashley,
+      is_active: true,
     }, 
+    {
+      name: 'Derek M',
+      position: 'Music Director',
+      avatar_img: missing_avatar,
+      is_active: true,
+    },
     {
       name: 'Jason Zhao',
       position: 'Fundraiser',
       introduction: `I love working with Peer1on1 because it helps me to be a more organized, patient and compassionate person. I can understand and relate to a lot of the struggles these kids have and I want to help anyway I can.
       \n In the future, I want to study in Psychology and medicine so I can be more knowledgeable and resourceful and help out more.`,
       avatar_img: missing_avatar,
-      is_active: true,
+      is_active: false,
     },
     
   ],
