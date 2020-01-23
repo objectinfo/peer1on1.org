@@ -105,6 +105,7 @@ export default {
       avatar_img: missing_avatar,
       is_active: true,
     },
+    {
       name: 'Jason Zhao',
       position: 'Fundraiser',
       introduction: `I love working with Peer1on1 because it helps me to be a more organized, patient and compassionate person. I can understand and relate to a lot of the struggles these kids have and I want to help anyway I can.
