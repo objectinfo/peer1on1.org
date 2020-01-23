@@ -9,6 +9,8 @@ import TiffanyCheng from '../content/members/tiffany_cheng.jpg'
 import JamesLee from '../content/members/james_lee.jpg'
 import KristenTang from '../content/members/kristen_tang.jpg'
 import Lisa_Chattler from '../content/members/Lisa_Chattler.jpg'
+import MarinaZhao from '../content/members/marina_zhao.jpg'
+import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 
 export default {
   board: [
@@ -70,7 +72,7 @@ export default {
       position: 'Secretary',
       introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
       \n In the future, I hope to help out more youths.`,
-      avatar_img: missing_avatar,
+      avatar_img: MarinaZhao,
       is_active: true,
     },
     {
@@ -86,7 +88,7 @@ export default {
       position: 'Director of Activities',
       introduction: `Peer1on1 amazes me as the most dedicated organization I have worked with. There is true dedication to helping autistic children, and I am glad to be on board. I especially love that I can challenge myself to do better. Through the experience I have gained with Peer1on1, I have gained patience, courage, and determination. I have also become more outgoing as a person and it is hard to believe how much of an impact Peer1on1 has had on me.
       \n In the near future, I hope to expand this astonishing group for others to experience what I have. I wish to continue helping the autistic youth and allow Peer1on1 to thrive.`,
-      avatar_img: missing_avatar,
+      avatar_img: RyanOtsuka,
       is_active: true,
     },
     {
