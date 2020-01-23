@@ -128,7 +128,7 @@ export default class Contact extends Component {
     name: 'Contact Form',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Thanks for your inquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
@@ -181,11 +181,11 @@ export default class Contact extends Component {
       <ContactFormInputSelect
         
         name='type'
-        defaultValue='Type of Enquiry'
+        defaultValue='Type of Inquiry'
         required
       >
         <option disabled hidden>
-          Type of Enquiry
+          Type of Inquiry
         </option>
         <option>Need to know more</option>
         <option>Want to say hello</option>
