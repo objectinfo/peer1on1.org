@@ -45,7 +45,10 @@ function BranchMembers(props) {
         return member.is_active === true;
         }).map((member, i) => {
         const panelId = `panel${i}`;
-        const shortIntro = member.introduction.slice(0, 40) + '...';
+        const shortIntro = '';
+        if (member.introduction) {
+          shortIntro= member.introduction.slice(0, 40) + '...';
+        }
         // expanded={expanded === {panelId}} onChange={handleChange(panelId)}
         return (
           <ExpansionPanel key={member.name}>
