@@ -115,6 +115,31 @@ export default {
     },
     
   ],
+  sangabriel: [
+    {
+      name: 'Johnson Guo',
+      position: 'President',
+      introduction: `Helping others has always been a passion of mine, and Peer 1 on 1's mission falls perfectly in line with that. I hope that I will be able to meet, understand, and help many new people and make their day. Furthermore, I would love to be able to bring more people to the cause and give them the opportunity to help others.`,
+      avatar_img: missing_avatar,
+      is_active: true,
+    },
+    {
+      name: 'Lucy Zhang',
+      position: 'Activities Head',
+      introduction: `I think that the mission of Peer 1 on 1 is very meaningful and is something I would love to be a part of. It is such a wonderful opportunity for me to join other volunteers to build relationships with these children and to have fun! It is so encouraging to see other teenagers taking the time out of their lives to love and care for these children. Through this program, I look forward to learning more about autism and to overall become a more outgoing and caring person.
+    \n I know that what I gain from joining this organization will benefit me in the future. Communication and service are important skills to have in every aspect and can always be improved on. I hope that my contribution to this group can help it to grow tremendously over the years.`,
+      avatar_img: missing_avatar,
+      is_active: true,
+    },
+    {
+      name: 'Athena Liu',
+      position: 'Secretary',
+      introduction: `I am currently a freshman at Arcadia High School. I enjoy dancing, playing piano, chess, eating, and traveling all around the world. 
+      \n Being a part of Peer 1 on 1 is an exciting opportunity for me because I would love to make a difference in the lives of children with autism. I want these people to have more reasons to smile and enjoy the beauty of life! Through working with the team, I hope to learn and improve life skills, both practical and personal, such as planning, cooperation, compassion, patience, and courage.`,
+      avatar_img: missing_avatar,
+      is_active: true,
+    },
+  ],
   cerritos: [
     {
       name: 'Tiffany Cheng',
