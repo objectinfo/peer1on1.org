@@ -136,7 +136,7 @@ export default {
       position: 'Secretary',
       introduction: `I am currently a freshman at Arcadia High School. I enjoy dancing, playing piano, chess, eating, and traveling all around the world. 
       \n Being a part of Peer 1 on 1 is an exciting opportunity for me because I would love to make a difference in the lives of children with autism. I want these people to have more reasons to smile and enjoy the beauty of life! Through working with the team, I hope to learn and improve life skills, both practical and personal, such as planning, cooperation, compassion, patience, and courage.`,
-      avatar_img: mmissing_avatar,
+      avatar_img: missing_avatar,
       is_active: true,
     },
   ],
