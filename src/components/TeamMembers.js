@@ -114,6 +114,10 @@ export default function TeamMembers(props) {
       <h3>Cypress Branch</h3>
       <BranchMembers members={teamMembers['cypress']} />
     </div>
+    <div style={{marginTop: '3rem', marginBottom: '3rem'}}>
+      <h3>San Gabriel Branch</h3>
+      <BranchMembers members={teamMembers['sangabriel']} />
+    </div>
     <div style={{marginBottom: '3rem'}}>
       <h3>Cerritos Branch</h3>
       <BranchMembers members={teamMembers['cerritos']} />
