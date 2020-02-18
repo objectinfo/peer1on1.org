@@ -4,13 +4,15 @@ import EmmyChen from '../content/members/emmy_chen.jpg'
 import KaiannYang from '../content/members/kaiann_yang.jpg'
 import LucyWan from '../content/members/lucy_wan.jpg'
 import Gail from '../content/members/Gail.jpg'
-import Ashley from '../content/members/ashley.png'
+import AshleyCho from '../content/members/ashley.png'
 import TiffanyCheng from '../content/members/tiffany_cheng.jpg'
 import JamesLee from '../content/members/james_lee.jpg'
 import KristenTang from '../content/members/kristen_tang.jpg'
 import Lisa_Chattler from '../content/members/Lisa_Chattler.jpg'
 import MarinaZhao from '../content/members/marina_zhao.jpg'
 import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
+import AthenaLiu from '.../content/members/athena_liu.jpg'
+import LucyZhang from '...content/members/lucy_zhang.png'
 
 export default {
   board: [
@@ -96,11 +98,11 @@ export default {
       position: 'Website Manager',
       introduction: `I enjoy being a part of Peer1on1 because I feel like I am able to help out so many people and make a real difference. It also pushes me to strive to improve myself, because it helps me realize that in order to help others reach a goal, I must proficient in that area as well.
       My future goals are to study computer sciences.`,
-      avatar_img: Ashley,
+      avatar_img: AshleyCho,
       is_active: true,
     }, 
     {
-      name: 'Derek M',
+      name: 'Derek Maeshiro',
       position: 'Music Director',
       avatar_img: missing_avatar,
       is_active: true,
@@ -125,10 +127,10 @@ export default {
     },
     {
       name: 'Lucy Zhang',
-      position: 'Activities Head',
+      position: 'Director of Activities',
       introduction: `I think that the mission of Peer 1 on 1 is very meaningful and is something I would love to be a part of. It is such a wonderful opportunity for me to join other volunteers to build relationships with these children and to have fun! It is so encouraging to see other teenagers taking the time out of their lives to love and care for these children. Through this program, I look forward to learning more about autism and to overall become a more outgoing and caring person.
     \n I know that what I gain from joining this organization will benefit me in the future. Communication and service are important skills to have in every aspect and can always be improved on. I hope that my contribution to this group can help it to grow tremendously over the years.`,
-      avatar_img: missing_avatar,
+      avatar_img: LucyZhang,
       is_active: true,
     },
     {
@@ -136,7 +138,7 @@ export default {
       position: 'Secretary',
       introduction: `I am currently a freshman at Arcadia High School. I enjoy dancing, playing piano, chess, eating, and traveling all around the world. 
       \n Being a part of Peer 1 on 1 is an exciting opportunity for me because I would love to make a difference in the lives of children with autism. I want these people to have more reasons to smile and enjoy the beauty of life! Through working with the team, I hope to learn and improve life skills, both practical and personal, such as planning, cooperation, compassion, patience, and courage.`,
-      avatar_img: missing_avatar,
+      avatar_img: AthenaLiu,
       is_active: true,
     },
   ],
@@ -150,7 +152,7 @@ export default {
     },
     {
       name: 'James Lee',
-      position: 'Activities Head',
+      position: 'Director of Activities',
       introduction: `James Lee is currently a Sophomore at Whitney High School. He loves playing soccer and drums, and secretly likes to sing even though he is not very good at it. He enjoys participating in Peer 1on1 because he likes planning fun activities for the peers, and enjoys playing with them.`,
       avatar_img: JamesLee,
       is_active: true,
