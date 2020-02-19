@@ -11,8 +11,8 @@ import KristenTang from '../content/members/kristen_tang.jpg'
 import Lisa_Chattler from '../content/members/Lisa_Chattler.jpg'
 import MarinaZhao from '../content/members/marina_zhao.jpg'
 import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
-import AthenaLiu from '.../content/members/athena_liu.jpg'
-import LucyZhang from '.../content/members/lucy_zhang.png'
+import AthenaLiu from '../content/members/athena_liu.jpg'
+import LucyZhang from '../content/members/lucy_zhang.png'
 
 export default {
   board: [
