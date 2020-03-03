@@ -13,7 +13,7 @@ import MarinaZhao from '../content/members/marina_zhao.jpg'
 import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 import AthenaLiu from '../content/members/athena_liu.jpg'
 import LucyZhang from '../content/members/lucy_zhang.png'
-import JohnsonGuo from '../content/members/johnson_guo.jpeg'
+import JohnsonGuo from '../content/members/johnson_guo.jpg'
 
 export default {
   board: [
