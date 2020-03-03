@@ -13,6 +13,7 @@ import MarinaZhao from '../content/members/marina_zhao.jpg'
 import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 import AthenaLiu from '../content/members/athena_liu.jpg'
 import LucyZhang from '../content/members/lucy_zhang.png'
+import JohnsonGuo from '../content/members/johnson_guo.png'
 
 export default {
   board: [
@@ -122,7 +123,7 @@ export default {
       name: 'Johnson Guo',
       position: 'President',
       introduction: `Helping others has always been a passion of mine, and Peer 1 on 1's mission falls perfectly in line with that. I hope that I will be able to meet, understand, and help many new people and make their day. Furthermore, I would love to be able to bring more people to the cause and give them the opportunity to help others.`,
-      avatar_img: missing_avatar,
+      avatar_img: JohnsonGuo,
       is_active: true,
     },
     {
