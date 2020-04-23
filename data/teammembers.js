@@ -38,7 +38,7 @@ export default {
     },
     {
         name: 'Gail Singer-Chang, Psy.D., MS, MA',
-        position: 'Secretary',
+        position: 'Advisory Board Member',
         introduction: `Gail Singer-Chang has a son with autism. She has been a medical educator 
         for 20 years and founded FACE: Faculty for Autism Collaboration & Education, 
         whose mission is to promote education and inter-professional perspectives about autism to 
@@ -48,7 +48,7 @@ export default {
     },
     {
         name: 'Lisa Chattler, MA, CCC-SLP',
-        position: 'Secretary',
+        position: 'Advisory Board Member',
         introduction: `Lisa recently retired from Los Alamitos Unified where she provided direct
         clinical services to students with wide ranging communication challenges for 38 years 
         and supervised student interns from Chapman University, CSUF, and CSUN.  In addition, 
