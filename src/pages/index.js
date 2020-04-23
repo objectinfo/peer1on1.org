@@ -89,6 +89,11 @@ export default class Index extends Component {
     let archiveEvents = []
 
     sortedEvents.forEach(element => {
+        if (element.when.match(/ongoing/i))
+        {
+            upcomingEvents.push(element);
+            return;
+        }
         const eventDate = new Date(element.when).getTime();
         if (eventDate > currentTime)
         {
