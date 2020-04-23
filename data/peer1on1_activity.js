@@ -3,6 +3,16 @@ import flyer_01_04_2020 from './2020-01-04-museum_hiking_tour.jpg'
 
 export default [
     {
+        eventTitle: "Social Friends Online",
+        when: "Ongoing",
+        where: "Online",
+        mapUrl: "",
+        time: "See description",
+        description: "There are three repeated online events. Peer1on1 Match: Peers can be assigned by request from ASD child. 5 pairs of online social friends have been set up. Inclusive fitness program: every Saturday afternoon, 3:00-3:30pm via zoom meeting id 624 094 9559. Arts/crafts/storytelling: every Tuesday afternoon, 4:00-4:40pm via zoom meeting id 284 798 222. Password to zoom meetings can be requested by emailling peer1on1forautism@gmail.com.",
+        timeline: [              
+        ]
+    },
+    {
         eventTitle: "Wetland Museum and Hiking Tour",
         when: "January. 04, 2020",
         where: "3842 Warner Ave.\nHuntington Beach, CA, 92649",
