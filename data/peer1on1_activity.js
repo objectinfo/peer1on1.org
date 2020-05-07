@@ -10,7 +10,7 @@ export default [
         mapUrl: "",
         time: "See description",
         flyerImage: flyer_summer2020,
-        description: "There are three repeated online events. Peer1on1 Match: Peers can be assigned by request from ASD child. 5 pairs of online social friends have been set up. Inclusive fitness program: every other Sunday afternoon, 4:00-4:35pm via zoom meeting id 624 094 9559. Arts/crafts/storytelling: every other Sunday afternoon, 4:00-4:35pm via zoom meeting id 284 798 222. Password to zoom meetings can be requested by emailling peer1on1forautism@gmail.com.",
+        description: "There are three repeated online events. Peer1on1 Match: Peers can be assigned by request from ASD child. 5 pairs of online social friends have been set up. Inclusive fitness program: every other Sunday afternoon, 4:00-4:35pm via zoom meeting id 624 094 9559. Arts/crafts/storytelling: every other Sunday afternoon(different Sundays than fitness), 4:00-4:35pm via zoom meeting id 284 798 222. Password to zoom meetings can be requested by emailling peer1on1forautism@gmail.com.",
         timeline: [              
         ]
     },
