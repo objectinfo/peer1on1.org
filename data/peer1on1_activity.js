@@ -1,6 +1,6 @@
 import flyer_11_23_2019 from './2019-11-23-event.jpg'
 import flyer_01_04_2020 from './2020-01-04-museum_hiking_tour.jpg'
-import flyer_summer2020 from './peer1on1onlinesocial.jpg'
+import flyer_summer2020 from '../content/images/peer1on1onlinesocial.jpg'
 
 export default [
     {
