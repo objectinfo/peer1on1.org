@@ -60,6 +60,13 @@ export default {
         avatar_img: Lisa_Chattler,
         is_active: true,      
     },
+    {
+      name: 'Brandon Q. Tran',
+      position: 'Advisory Board Member',
+      introduction: `Brandon Q. Tran represents banks and financial institutions, and other corporations, large and small, in business litigation matters in both state and federal courts. He has wide-ranging experience in general business and commercial litigation matters, including lender liability, misappropriation of trade secrets, fraud, unfair competition, breaches of contract, mechanic's liens, stop notices, receiverships, and class actions. He also has experience in real estate litigation, representing design builders and design professionals. In addition to other facets of the litigation process, Mr. Tran advises his clients on alternative dispute resolution options that are available in both state and federal court, such as mediation and arbitration.`,
+      avatar_img: BrandonTran,
+      is_active: true,
+    },
   ],
   cypress: [
     {
