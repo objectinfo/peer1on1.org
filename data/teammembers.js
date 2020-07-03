@@ -79,27 +79,19 @@ export default {
       is_active: true,
     },
     {
-      name: 'Marina Zhao',
-      position: 'Secretary',
-      introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
-      \n In the future, I hope to help out more youths.`,
-      avatar_img: MarinaZhao,
-      is_active: true,
-    },
-    {
-      name: 'Kaiann Yang',
-      position: 'Director of Publicity',
-      introduction: `Kaiann Yang is the Publicist of Peer1on1. She enjoys spending time with children, which is why she likes volunteering with Peer1on1.
-      In the future, she hopes to use the skills she learns from interacting with children to benefit her communication technique.`,
-      avatar_img: KaiannYang,
-      is_active: true,
-    },
-    {
       name: 'Ryan Otsuka',
       position: 'Director of Activities',
       introduction: `Peer1on1 amazes me as the most dedicated organization I have worked with. There is true dedication to helping autistic children, and I am glad to be on board. I especially love that I can challenge myself to do better. Through the experience I have gained with Peer1on1, I have gained patience, courage, and determination. I have also become more outgoing as a person and it is hard to believe how much of an impact Peer1on1 has had on me.
       \n In the near future, I hope to expand this astonishing group for others to experience what I have. I wish to continue helping the autistic youth and allow Peer1on1 to thrive.`,
       avatar_img: RyanOtsuka,
+      is_active: true,
+    },
+    {
+      name: 'Marina Zhao',
+      position: 'Secretary',
+      introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
+      \n In the future, I hope to help out more youths.`,
+      avatar_img: MarinaZhao,
       is_active: true,
     },
     {
@@ -110,6 +102,14 @@ export default {
       avatar_img: AshleyCho,
       is_active: true,
     }, 
+    {
+      name: 'Kaiann Yang',
+      position: 'Director of Publicity',
+      introduction: `Kaiann Yang is the Publicist of Peer1on1. She enjoys spending time with children, which is why she likes volunteering with Peer1on1.
+      In the future, she hopes to use the skills she learns from interacting with children to benefit her communication technique.`,
+      avatar_img: KaiannYang,
+      is_active: true,
+    },
     {
       name: 'Derek Maeshiro',
       position: 'Music Director',
