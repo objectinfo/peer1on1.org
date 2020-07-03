@@ -14,6 +14,7 @@ import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 import AthenaLiu from '../content/members/athena_liu.jpg'
 import LucyZhang from '../content/members/lucy_zhang.png'
 import JohnsonGuo from '../content/members/johnson_guo.jpg'
+import BrandonTran from '../content/members/BrandonTran.jpg'
 
 export default {
   board: [
