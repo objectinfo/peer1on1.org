@@ -14,6 +14,7 @@ import RyanOtsuka from '../content/members/ryan_otsuka.jpg'
 import AthenaLiu from '../content/members/athena_liu.jpg'
 import LucyZhang from '../content/members/lucy_zhang.png'
 import JohnsonGuo from '../content/members/johnson_guo.jpg'
+import BrandonTran from '../content/members/BrandonTran.jpg'
 
 export default {
   board: [
@@ -60,6 +61,13 @@ export default {
         avatar_img: Lisa_Chattler,
         is_active: true,      
     },
+    {
+      name: 'Brandon Q. Tran',
+      position: 'Advisory Board Member',
+      introduction: `Brandon Q. Tran represents banks and financial institutions, and other corporations, large and small, in business litigation matters in both state and federal courts. He has wide-ranging experience in general business and commercial litigation matters, including lender liability, misappropriation of trade secrets, fraud, unfair competition, breaches of contract, mechanic's liens, stop notices, receiverships, and class actions. He also has experience in real estate litigation, representing design builders and design professionals. In addition to other facets of the litigation process, Mr. Tran advises his clients on alternative dispute resolution options that are available in both state and federal court, such as mediation and arbitration.`,
+      avatar_img: BrandonTran,
+      is_active: true,
+    },
   ],
   cypress: [
     {
@@ -71,27 +79,19 @@ export default {
       is_active: true,
     },
     {
-      name: 'Marina Zhao',
-      position: 'Secretary',
-      introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
-      \n In the future, I hope to help out more youths.`,
-      avatar_img: MarinaZhao,
-      is_active: true,
-    },
-    {
-      name: 'Kaiann Yang',
-      position: 'Director of Publicity',
-      introduction: `Kaiann Yang is the Publicist of Peer1on1. She enjoys spending time with children, which is why she likes volunteering with Peer1on1.
-      In the future, she hopes to use the skills she learns from interacting with children to benefit her communication technique.`,
-      avatar_img: KaiannYang,
-      is_active: true,
-    },
-    {
       name: 'Ryan Otsuka',
       position: 'Director of Activities',
       introduction: `Peer1on1 amazes me as the most dedicated organization I have worked with. There is true dedication to helping autistic children, and I am glad to be on board. I especially love that I can challenge myself to do better. Through the experience I have gained with Peer1on1, I have gained patience, courage, and determination. I have also become more outgoing as a person and it is hard to believe how much of an impact Peer1on1 has had on me.
       \n In the near future, I hope to expand this astonishing group for others to experience what I have. I wish to continue helping the autistic youth and allow Peer1on1 to thrive.`,
       avatar_img: RyanOtsuka,
+      is_active: true,
+    },
+    {
+      name: 'Marina Zhao',
+      position: 'Secretary',
+      introduction: `Being a part of Peer1on1 is an absolute honor because I love to interact with autistic youths. Helping these children really challenges myself to be a better person because I can learn so much from everyone involved in this program.
+      \n In the future, I hope to help out more youths.`,
+      avatar_img: MarinaZhao,
       is_active: true,
     },
     {
@@ -102,6 +102,14 @@ export default {
       avatar_img: AshleyCho,
       is_active: true,
     }, 
+    {
+      name: 'Kaiann Yang',
+      position: 'Director of Publicity',
+      introduction: `Kaiann Yang is the Publicist of Peer1on1. She enjoys spending time with children, which is why she likes volunteering with Peer1on1.
+      In the future, she hopes to use the skills she learns from interacting with children to benefit her communication technique.`,
+      avatar_img: KaiannYang,
+      is_active: true,
+    },
     {
       name: 'Derek Maeshiro',
       position: 'Music Director',
