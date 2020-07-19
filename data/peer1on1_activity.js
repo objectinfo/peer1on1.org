@@ -3,7 +3,7 @@ import flyer_01_04_2020 from './2020-01-04-museum_hiking_tour.jpg'
 import flyer_summer2020 from '../content/images/peer1on1onlinesocial.jpg'
 import flyer2_summer2020 from '../content/images/peer1on1online.jpg'
 import flyer_online1on1_summer2020 from '../content/images/online1on1.jpg'
-import flyer_sundayartsandcrafts_summer2020 from '../content/images/Sunday_Arts_and_Crafts_Event.JPG'
+import flyer_sundayartsandcrafts_summer2020 from '../content/images/Sunday_Arts_and_Crafts_Event.jpg'
 
 export default [
     {
@@ -12,8 +12,10 @@ export default [
         where: "Online",
         mapUrl: "",
         time: "See description",
-        flyerImage: flyer_online1on1_summer2020,
-        flyerImage: flyer_sundayartsandcrafts_summer2020, 
+        flyerImage: [
+            flyer_online1on1_summer2020, 
+            flyer_sundayartsandcrafts_summer2020
+        ],
         description: "There are two repeated online events. Peer1on1 Match: Peers can be assigned by request from ASD child. 5 pairs of online social friends have been set up. Sunday Skills: every Sunday afternoon, 2:00-2:40pm via zoom meeting id 767 3667 9963. Password to zoom meetings can be requested by emailling peer1on1forautism@gmail.com.",
         timeline: [              
         ]
@@ -24,7 +26,7 @@ export default [
         where: "3842 Warner Ave.\nHuntington Beach, CA, 92649",
         mapUrl: "",
         time: "1:00 ~ 3:00 PM",
-        flyerImage: flyer_01_04_2020,
+        flyerImage: [flyer_01_04_2020],
         description: "Bolsa Chica Wetland Museum and Hiking Tour, Peer1on1 will cover the cost of the tour, \n Register by email: \npeer1on1forautism@gmail.com",
         timeline: [              
         ]
@@ -35,7 +37,7 @@ export default [
         where: "ELSENHOWER PARK, SEAL BEACH",
         mapUrl: "",
         time: "3:00 ~ 5:00 PM",
-        flyerImage: flyer_11_23_2019,
+        flyerImage: [flyer_11_23_2019],
         description: "You are invited to join us in a Chrismas Tree Lighting in Seal Beach \nSANTA - MUSIC - SLEDDING - COCOA",
         timeline: [              
         ]
