@@ -113,8 +113,12 @@ export default function EventFlyerForm(props) {
         </DialogTitle>
         <DialogContent className={classes.content}>
           {props.flyerImage ? (
-            <img src={props.flyerImage}>
-            </img>
+            props.flyerImage.map((flyerImage, i) => {
+              return (
+                <img src={flyerImage}>
+                </img>
+              )
+            })
           ) : null}
         </DialogContent>
       </Dialog>
