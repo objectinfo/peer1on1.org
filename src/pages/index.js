@@ -43,6 +43,24 @@ const StyledGridRoot = styled.div`
   flex-grow: 1;
 `;
 
+const IFrameEembed = styled.iframe`
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+`;
+
+const IframeEmbedContainer = styled.div`
+  position: relative;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+`;
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -104,6 +122,7 @@ export default class Index extends Component {
     });
 
     let hasUpcomingEvent = upcomingEvents.length > 0;
+    let hasAddtionalEvent = config.addtionalEvent.length > 0;
 
     const latestPostList = this.getPostList(this.props.data.latestPosts.edges)
 
@@ -129,6 +148,12 @@ export default class Index extends Component {
                     {hasUpcomingEvent ? (
                     <EventListingItem activity={upcomingEvents[0]}>
                     </EventListingItem>
+                    ) : null}
+
+                    { hasAddtionalEvent ? (
+                    <IframeEmbedContainer>
+                      <IFrameEembed src="/more_event.html"></IFrameEembed>
+                    </IframeEmbedContainer>
                     ) : null}
                   </Grid>
                   <Grid item sm>
