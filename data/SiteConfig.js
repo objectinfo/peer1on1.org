@@ -18,6 +18,7 @@ const config = {
   userName: 'Peer1on1',
   userEmail: 'peer1on1.org@gmail.com',
   userTwitter: '',
+  addtionalEvent: 'more_event.html',
   menuLinks: [
     {
       name: 'About',

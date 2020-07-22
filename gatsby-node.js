@@ -49,6 +49,11 @@ function addSiblingNodes(createNodeField) {
   }
 }
 
+const express = require('express')
+exports.onCreateDevServer=({app})=>{
+    app.use(express.static('public'))
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   let slug
