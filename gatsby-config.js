@@ -116,6 +116,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify`,
       options: {
+        mergeSecurityHeaders: true,
         headers: {
           '/*.js': ['cache-control: public, max-age=31536000, immutable'],
           '/*.css': ['cache-control: public, max-age=31536000, immutable'],
