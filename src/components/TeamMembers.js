@@ -122,6 +122,10 @@ export default function TeamMembers(props) {
       <h3>Cerritos Branch</h3>
       <BranchMembers members={teamMembers['cerritos']} />
     </div>    
+    <div style={{marginBottom: '3rem'}}>
+      <h3>Beach Branch</h3>
+      <BranchMembers members={teamMembers['beach']} />
+    </div>     
     </div>
   );
 }
