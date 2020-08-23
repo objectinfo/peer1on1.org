@@ -15,6 +15,11 @@ import AthenaLiu from '../content/members/athena_liu.jpg'
 import LucyZhang from '../content/members/lucy_zhang.png'
 import JohnsonGuo from '../content/members/johnson_guo.jpg'
 import BrandonTran from '../content/members/BrandonTran.jpg'
+import NathanCheng from '../content/members/NathanCheng.jpg'
+import KevinJiang from '../content/members/KevinJiang.jpg'
+import MatthewCheng from '../content/members/MatthewCheng.jpg'
+import LeonZhang from '../content/members/LeonZhang.jpg'
+import AllisonQu from '../content/members/AllisonQu.jpg'
 
 export default {
   board: [
@@ -181,8 +186,42 @@ export default {
       avatar_img: LucyWan,
       is_active: false,
     },
-    
-    
-
+  ],
+  beach: [
+    {
+      name: 'Nathan Cheng',
+      position: 'President',
+      introduction: `Nathan Cheng is a student at Los Alamitos High School and thoroughly enjoys working with ASD afflicted teens. His team’s main goal revolves around helping them exercise more frequently. In addition to this, he has researched the possible causes of an increased prevalence of obesity in ASD individuals. The study concluded that the number of available opportunities and amount of social interaction (in addition to many other factors) may have a strong correlation. All in all, he hopes to plan more outdoor-centered events in the future.`,
+      avatar_img: NathanCheng,
+      is_active: true,      
+    },
+    {
+      name: 'Kevin Jiang',
+      position: 'Marketing Director',
+      introduction: `Peer 1 on 1 is a great program and I really like to help autistic children. From volunteering, I learned a lot about leadership, communication and dedication. I just really appreciate for the opportunity given by this program.`,
+      avatar_img: KevinJiang,
+      is_active: true,      
+    },
+    {
+      name: 'Matthew  Cheng',
+      position: 'Vice President',
+      introduction: `I am forever grateful for this wonderful opportunity to help others in need. Peer 1 on 1 has let me understand the real meaning of happiness and has also taught me many important life skills. Overall, Peer 1 on 1 will forever hold a place in my heart as a place of great activity, joy, achievement, and compassion.`,
+      avatar_img: MatthewCheng,
+      is_active: true,      
+    },
+    {
+      name: 'Leon Zhang',
+      position: 'Technology Director',
+      introduction: `Allison Qu wil be a sophomore at Los Alamitos High School during the 2020 to 2021 school year. She loves to dance, play the violin, hike, and travel around the world. It is her pleasure to help support the members for this influential team of youths. She has had the great experience working with Peer 1 on 1 and is looking forward to another amazing year ahead.`,
+      avatar_img: LeonZhang, 
+      is_active: true,      
+    },
+    {
+      name: 'Allison Qu',
+      position: 'Media Relations Director',
+      introduction: `Allison Qu wil be a sophomore at Los Alamitos High School during the 2020 to 2021 school year. She loves to dance, play the violin, hike, and travel around the world. It is her pleasure to help support the members for this influential team of youths. She has had the great experience working with Peer 1 on 1 and is looking forward to another amazing year ahead.`,
+      avatar_img: AllisonQu,
+      is_active: true,      
+    },    
   ],
 }
