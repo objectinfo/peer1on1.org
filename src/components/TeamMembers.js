@@ -51,7 +51,7 @@ function BranchMembers(props) {
         }
         // expanded={expanded === {panelId}} onChange={handleChange(panelId)}
         return (
-          <ExpansionPanel key={member.name} defaultExpanded='true'>
+          <ExpansionPanel key={member.name}>
             <ExpansionPanelSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1bh-content"
