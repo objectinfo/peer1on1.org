@@ -20,6 +20,9 @@ import KevinJiang from '../content/members/KevinJiang.jpg'
 import MatthewCheng from '../content/members/MatthewCheng.jpg'
 import LeonZhang from '../content/members/LeonZhang.jpg'
 import AllisonQu from '../content/members/AllisonQu.jpg'
+import Nico from '../content/members/Nico.png'
+import Harry from '../content/members/Harry.png'
+import Tim_IrvineBranch from '../content/members/Tim_IrvineBranch.png'
 
 export default {
   board: [
@@ -223,5 +226,32 @@ export default {
       avatar_img: AllisonQu,
       is_active: true,      
     },    
+  ],
+  irvine: [
+    {
+      name: 'Nico',
+      position: 'President',
+      introduction: `I love to be parted of Peer 1 on 1 organization, working together with the team to bring help and supports to autistic people.  As an energetic person, I enjoy golf and music remix.  
+      \nThis is also an excellent opportunity for me to understand the need and expectation for autistic people.  It also allows me to include people with various situation into our daily life.  I will do my best as a benevolent leader and grow with the team together on the path of helping people.`,
+      avatar_img: Nico,
+      is_active: true,      
+    },
+    {
+      name: 'Harry',
+      position: 'Co-President',
+      introduction: `Harry, swimming and playing clarinet for years.  I deeply believe persistence is a crucial step toward future development.  I am passionate at socializing and interacting with people and treasure every time and opportunity with my friends as well.  
+      \nBeing a part of Peer 1on1 organization, alongside the team, it is absolutely my honor to help autistic children with some stuff they had never learn or never experienced before. With the appropriate environment created for them, I and the team will help them integrate into society, bring happiness to them and their families.       
+      \nIn the future, I will develop myself on the road of practicing sports. I want to encourage more people to experience the spirit of sports, never giving up!`,
+      avatar_img: Harry,
+      is_active: true,      
+    },
+    {
+      name: 'Tim',
+      position: 'Director of Music',
+      introduction: `Tim, an activate basketball player at South Lake Middle School.  As an 8th grader, he presents communication talent with children at various age.  He likes sharing his travel trivia and growing stories.  
+      \nBeing with the Peer 1 on 1 organization, he hopes to devote in helping children with autism.  Through various sports and music activities, he will bring in easy and happy communication experience with autistic children.`,
+      avatar_img: Tim_IrvineBranch,
+      is_active: true,      
+    },
   ],
 }
