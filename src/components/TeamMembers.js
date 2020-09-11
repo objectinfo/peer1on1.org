@@ -51,7 +51,7 @@ function BranchMembers(props) {
         }
         // expanded={expanded === {panelId}} onChange={handleChange(panelId)}
         return (
-          <ExpansionPanel key={member.name}>
+          <ExpansionPanel key={member.name} defaultExpanded='true'>
             <ExpansionPanelSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1bh-content"
@@ -125,6 +125,10 @@ export default function TeamMembers(props) {
     <div style={{marginBottom: '3rem'}}>
       <h3>Beach Branch</h3>
       <BranchMembers members={teamMembers['beach']} />
+    </div>     
+    <div style={{marginBottom: '3rem'}}>
+      <h3>Irvine Branch</h3>
+      <BranchMembers members={teamMembers['irvine']} />
     </div>     
     </div>
   );
