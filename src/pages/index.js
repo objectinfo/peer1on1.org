@@ -21,6 +21,7 @@ import BoxedHeader from '../components/BoxedHeader'
 import NewsListingItem, {EventListingItem} from '../components/NewsListItem'
 import dateFormat from 'dateformat'
 import activityEvents from '../../data/peer1on1_activity'
+import Banner from '../components/Banner'
 
 // Center child divs inside parent div
 const ImageCarouselContainer = styled.div`
@@ -131,7 +132,9 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle}`} />
         {/* <BackgroundImgContainer src={heroImg}> */}
-
+        <div className="container">
+            <Banner />
+        </div>
         <ImageCarouselContainer >
           <div style={{width: '100%', height: '400px', maxWidth: '1000px'}}>
             <Carousel carousels={carousels} />

@@ -107,27 +107,27 @@ export default function TeamMembers(props) {
   return (
     <div>
     <div style={{marginTop: '3rem', marginBottom: '3rem'}}>
-      <h3>Board Members</h3>
+      <h3 style={{marginBottom: '1rem'}}>Board Members</h3>
       <BranchMembers members={teamMembers['board']} />
     </div>
     <div style={{marginBottom: '3rem'}}>
-      <h3>Cypress Branch</h3>
+      <h3 style={{marginBottom: '1rem'}}>Cypress Branch</h3>
       <BranchMembers members={teamMembers['cypress']} />
     </div>
     <div style={{marginTop: '3rem', marginBottom: '3rem'}}>
-      <h3>San Gabriel Branch</h3>
+      <h3 style={{marginBottom: '1rem'}}>San Gabriel Branch</h3>
       <BranchMembers members={teamMembers['sangabriel']} />
     </div>
     <div style={{marginBottom: '3rem'}}>
-      <h3>Cerritos Branch</h3>
+      <h3 style={{marginBottom: '1rem'}}>Cerritos Branch</h3>
       <BranchMembers members={teamMembers['cerritos']} />
     </div>    
     <div style={{marginBottom: '3rem'}}>
-      <h3>Beach Branch</h3>
+      <h3 style={{marginBottom: '1rem'}}>Beach Branch</h3>
       <BranchMembers members={teamMembers['beach']} />
     </div>     
     <div style={{marginBottom: '3rem'}}>
-      <h3>Irvine Branch</h3>
+      <h3 style={{marginBottom: '1rem'}}>Irvine Branch</h3>
       <BranchMembers members={teamMembers['irvine']} />
     </div>     
     </div>
