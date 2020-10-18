@@ -11,7 +11,6 @@ import { faList, faThLarge } from '@fortawesome/free-solid-svg-icons'
 
 // Center child divs inside parent div
 const TeamContainer = styled.div`
-    display: flex;
     max-width: 960px;
     justify-content: center;
     
