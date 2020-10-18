@@ -11,7 +11,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
-    maxWidth: 800,
   },
   image: {
     width: 40,
@@ -107,27 +106,27 @@ export default function TeamMembers(props) {
   return (
     <div>
     <div style={{marginTop: '3rem', marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>Board Members</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">Board Members</h3>
       <BranchMembers members={teamMembers['board']} />
     </div>
     <div style={{marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>Cypress Branch</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">Cypress Branch</h3>
       <BranchMembers members={teamMembers['cypress']} />
     </div>
     <div style={{marginTop: '3rem', marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>San Gabriel Branch</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">San Gabriel Branch</h3>
       <BranchMembers members={teamMembers['sangabriel']} />
     </div>
     <div style={{marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>Cerritos Branch</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">Cerritos Branch</h3>
       <BranchMembers members={teamMembers['cerritos']} />
     </div>    
     <div style={{marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>Beach Branch</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">Beach Branch</h3>
       <BranchMembers members={teamMembers['beach']} />
     </div>     
     <div style={{marginBottom: '3rem'}}>
-      <h3 style={{marginBottom: '1rem'}}>Irvine Branch</h3>
+      <h3 className="mb-2 font-serif text-2xl text-gray-800 text-center">Irvine Branch</h3>
       <BranchMembers members={teamMembers['irvine']} />
     </div>     
     </div>

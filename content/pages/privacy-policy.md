@@ -13,7 +13,7 @@ We may change this Privacy Policy from time to time.  If we make changes, we wil
 __Information You Provide to Us__
 
 We collect information you provide directly to us.  For example, we collect information when you sign up to receive email or text message updates, fill out a form, send us an email, communicate with us via third party social media sites, request information, respond to our requests, or otherwise communicate with us.  The types of information we may collect include your name, email address, postal address, phone number, credit card number, photos, videos, audio recordings and other information you choose to provide.
-
+<br/><br/>
 __Information We Collect Automatically When You Use the Sites__
 
 When you access or use our Sites, we automatically collect information about you, including:
