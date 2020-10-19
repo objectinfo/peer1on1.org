@@ -9,6 +9,10 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faList, faThLarge } from '@fortawesome/free-solid-svg-icons'
 
+const ButtonContainer = styled.div`
+    max-width: 960px;    
+`;
+
 // Center child divs inside parent div
 const TeamContainer = styled.div`
     max-width: 960px;
@@ -27,7 +31,7 @@ export default function ContactPage (props) {
       <Layout>
         <Helmet title={`Team Leaderships – ${config.siteTitle}`} />
         <div className="container items-center">
-        <TeamContainer className="flex justify-end m-auto">
+        <ButtonContainer className="flex justify-end m-auto">
         <div className="flex justify-self-end m-2 pt-3">
             <button 
             buttonKey="card"
@@ -52,7 +56,7 @@ export default function ContactPage (props) {
                 </div>
             </button>
         </div>
-        </TeamContainer>       
+        </ButtonContainer>       
           <TeamContainer className={"m-auto " + (selectedType === 'list' ? 'visible' : 'hidden')}>
             <TeamMembers teamMembers={teammembers}/>
           </TeamContainer>

@@ -20,8 +20,9 @@ export default function ServiceItem (props) {
            </div>
            <div className="justify-center m-auto py-1 md:p-0">
                <div className="m-auto">
-               <button className="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded md:mr-2 justify-self-end">
-                  <a href={serviceLink} target="_blank">{introduction ? "Learn More" : "Coming Soon"}</a>
+               <button className={`bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 
+                  border border-blue-500 hover:border-transparent rounded md:mr-2 justify-self-end ` + (serviceLink ? '' : 'opacity-50 cursor-not-allowed')}>
+                  <a href={serviceLink} target="_blank" className={serviceLink ? '' : 'cursor-not-allowed'}>{introduction ? "Learn More" : "Coming Soon"}</a>
                </button>
                </div>
             </div>    
