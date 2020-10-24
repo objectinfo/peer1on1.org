@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../layout'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
+import '../styles/markdown.css';
 
 export default class PageTemplate extends Component {
   render() {
@@ -21,7 +22,7 @@ export default class PageTemplate extends Component {
           <title>{`${page.title} – ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div className="container" style={{marginTop: '30px'}}>
+        <div className="container markdown" style={{marginTop: '30px'}}>
           <article>
             <header className="page-header">
               <h1>{page.title}</h1>

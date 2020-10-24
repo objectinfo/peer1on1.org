@@ -97,14 +97,17 @@ const Navbar = class extends React.Component {
               <StyledLink className="navbar-item" activeClassName="active" to="/about">
                 About
               </StyledLink>
+              <StyledLink className="navbar-item" activeClassName="active" to="/team">
+                Team
+              </StyledLink>
+              <StyledLink className="navbar-item" activeClassName="active" to="/service">
+                Service
+              </StyledLink>
               <StyledLink className="navbar-item" activeClassName="active" to="/events">
                 Events
               </StyledLink>
               <StyledLink className="navbar-item" activeClassName="active" to="/blog">
                 Gallery
-              </StyledLink>
-              <StyledLink className="navbar-item" activeClassName="active" to="/team">
-                Team
               </StyledLink>
               <StyledLink className="navbar-item" activeClassName="active" to="/contact">
                 Contact

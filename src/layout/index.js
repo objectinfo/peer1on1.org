@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import styled from 'styled-components';
 import heroImg from '../../static/background-16-9.svg'
+import '../styles/global.css';
 
 const BackgroundImgContainer = styled.div`
     background-image: url(${props => props.src});

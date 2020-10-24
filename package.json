@@ -5,6 +5,10 @@
   "author": "peer1on1 <peer1on1.org@gmail.com>",
   "repository": "https://github.com/objectinfo/peer1on1.org.git",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@material-ui/core": "^4.3.2",
     "@material-ui/icons": "^4.2.1",
     "@material-ui/styles": "^4.3.0",
@@ -47,6 +51,7 @@
     "node-sass": "^4.14.0",
     "prismjs": "^1.15.0",
     "react": "^16.8.3",
+    "react-card-flip": "^1.0.11",
     "react-dom": "^16.8.3",
     "react-draggable": "^3.3.2",
     "react-event-timeline": "^1.6.3",
