@@ -132,9 +132,9 @@ export default class Index extends Component {
       <Layout>
         <Helmet title={`${config.siteTitle}`} />
         {/* <BackgroundImgContainer src={heroImg}> */}
-        <div className="container">
+{/*         <div className="container">
             <Banner />
-        </div>
+        </div> */}
         <ImageCarouselContainer >
           <div style={{width: '100%', height: '400px', maxWidth: '1000px'}}>
             <Carousel carousels={carousels} />

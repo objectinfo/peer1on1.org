@@ -100,9 +100,9 @@ const Navbar = class extends React.Component {
               <StyledLink className="navbar-item" activeClassName="active" to="/team">
                 Team
               </StyledLink>
-              <StyledLink className="navbar-item" activeClassName="active" to="/service">
+{/*               <StyledLink className="navbar-item" activeClassName="active" to="/service">
                 Service
-              </StyledLink>
+              </StyledLink> */}
               <StyledLink className="navbar-item" activeClassName="active" to="/events">
                 Events
               </StyledLink>
